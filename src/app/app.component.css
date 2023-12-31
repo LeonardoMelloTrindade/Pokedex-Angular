@@ -1,9 +1,13 @@
 /* TAGS HTML  */
-
 header {
     display: flex;
     justify-content: center;
+}
 
+header, .selectPokemons, hr {
+    background-color: rgb(199, 140, 68);
+    margin: 0;
+    padding: 0;
 }
 
 select {
@@ -22,4 +26,5 @@ select {
 .selectPokemons {
     display: flex;
     justify-content: center;
+    padding: 10px 0 !important;
 }
