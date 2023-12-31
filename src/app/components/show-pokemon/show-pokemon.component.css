@@ -1,0 +1,30 @@
+.showCasePokemon {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cardPokemon {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 5px 10px 5px;
+    border: 1px solid red;
+    width: 200px;
+    height: 300px;
+}
+
+.titleNamePokemon {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.imgPokemon {
+    width: 75%;
+    height: 80%;
+    margin: auto;
+}
