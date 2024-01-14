@@ -2,6 +2,7 @@
   <h1 class="title">Pokedex</h1>
 </header>
 <section class="selectPokemons">
+  <p id="selectLabel">Escolha o tipo do Pokemon:</p>
   <select id="optionsTypes" #typePokemon (change)="getTypePokemon(typePokemon.value)">
     <option value="" disabled>Escolha o tipo</option>
     <option [value]="tipo" *ngFor="let tipo of tipos">

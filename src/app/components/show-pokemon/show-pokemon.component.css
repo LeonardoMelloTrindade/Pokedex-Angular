@@ -1,3 +1,5 @@
+/* CLASS */
+
 .showCasePokemon {
     background-color: rgb(178, 217, 250);
     font-family: Arial, Helvetica, sans-serif;
@@ -13,12 +15,15 @@
     flex-direction: column;
     border-radius: 10px;
     margin: 10px 5px 10px 5px;
-    border: 10px double rgb(83, 82, 82);
+    border: 10px double #75372d;
     width: 200px;
     height: 300px;
 }
 
-.titleNamePokemon {
+.titlePokemon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
     margin-top: 5px;
 }
@@ -32,4 +37,12 @@
     background-position: bottom;
     border-radius: 5px;
     border: 1px solid black;
+}
+
+.pokedexNumber {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    padding: 0 2px;
+    border-radius: 100%;
+    border: 2px groove black;
 }

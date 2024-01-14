@@ -1,6 +1,17 @@
 <main class="showCasePokemon">
-  <section class="cardPokemon" *ngFor="let pokemon of changeShowPokemon(selectedType)">
-    <article class="titleNamePokemon"><h3>{{ pokemon.pokemon.name }}</h3></article>
-  <img class="imgPokemon" [src]="getImgPokemon(pokemon.pokemon.pokedexNumber)" alt="">
+  <section
+    class="cardPokemon"
+    *ngFor="let pokemon of changeShowPokemon(selectedType)"
+  >
+    <article class="titlePokemon">
+      <p class="pokedexNumber">{{ pokemon.pokemon.pokedexNumber }}</p>
+      <h3>{{ pokemon.pokemon.name }}</h3>
+      <div></div>
+    </article>
+    <img
+      class="imgPokemon"
+      [src]="getImgPokemon(pokemon.pokemon.pokedexNumber)"
+      alt=""
+    />
   </section>
 </main>
